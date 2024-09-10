@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Press Start 2P', Verdana, sans-serif;
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.774);
@@ -14,42 +15,36 @@
     width: 100%;
     align-items: center;
     background-color: rgba(68, 0, 131, 0.521);
+    padding: 20px;
 }
 
 #divContainer {
     display: flex;
-    width: 600px;
-    height: 400px;
+    width: 802px;
+    height: 800px;
     flex-wrap: wrap;
-    border: 2px solid white;
-    margin: 150px auto 0;
+    border: 1px solid white;
+    margin: 20px auto 0;
     background-color: rgba(65, 64, 64, 0.904);
-    gap: 2px;
-    justify-content: space-evenly;
     align-items: center;
     justify-content: center;
-}
-
-.square {
-    border: 1px solid rgba(255, 255, 255, 0.774);
-    aspect-ratio: 1;
-    flex: 1 0 25px;
 }
 
 .upperButton {
     background-color: rgba(68, 0, 131, 0.521);
     color: white;
-    border: 1px solid rgba(40, 0, 77, 0.836);
+    border: none;
     height: 50px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px auto 0;
+    margin: 40px auto 0;
     font-size: 14px;
     padding: 0 20px;
 }
 .upperButton:hover {
     border-color: rgba(7, 7, 7, 0.952);
     cursor: pointer;
+    scale: 1.01;
 }
