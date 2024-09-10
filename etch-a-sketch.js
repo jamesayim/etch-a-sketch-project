@@ -28,8 +28,8 @@ hoverEffect();
 
 upperButton.addEventListener("click", () => {
     let userInput = +prompt("Enter the number of grid(s) to be produced in the container:");
-        while (userInput > 100) {
-            userInput = prompt(`Enter a number from 0 to 100.`);
+        while (userInput > 100 || userInput <= 1) {
+            userInput = prompt(`Enter a number from 1 to 100.`);
         }
 
     divContainer.textContent = "";
