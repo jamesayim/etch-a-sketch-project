@@ -13,9 +13,9 @@ body {
     height: 400px;
     flex-wrap: wrap;
     border: 2px solid white;
-    margin: 200px auto 0;
+    margin: 150px auto 0;
     background-color: rgba(65, 64, 64, 0.904);
-    gap: 5px;
+    gap: 2px;
     justify-content: space-evenly;
     align-items: center;
     justify-content: center;
@@ -24,8 +24,24 @@ body {
 .square {
     border: 1px solid rgba(255, 255, 255, 0.774);
     aspect-ratio: 1;
-    flex: 1 0 20px;
+    flex: 1 0 25px;
 }
 .square:hover {
     background-color: rgba(7, 7, 7, 0.952);
+}
+
+.upperButton {
+    background-color: rgba(68, 0, 131, 0.521);
+    color: white;
+    border: 1px solid rgba(40, 0, 77, 0.836);
+    height: 35px;
+    width: 85px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+}
+.upperButton:hover {
+    border-color: rgba(7, 7, 7, 0.952);
 }
